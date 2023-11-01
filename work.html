@@ -1,66 +1,88 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>My Portfolio-Work</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Header including the logo and the main navigation -->
     <header class="page-header">
-        <!-- Add your logo image here -->
-        <img src="img/my_logo.png" alt="logo of JR" class="page-header__item">
-        <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem"
-                        class="navigation-list__item navigation-list__item--active">Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- Add your logo image here -->
+      <img src="img/my_logo.png" alt="logo of JR" class="page-header__item" />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main content -->
     <section>
-        <h1>Work</h1>
-        <div class="grid">
-            <!-- Grid items will live here -->
-            <div class="grid__item">
-                <h2>Meet App</h2>
-                <img src="img/meet_app_SS.png" alt="meet app photo" class="page-header__item">
-                <p>
-                    This project is a PWA that was built with the React framework, it was written utilizing behavior and
-                    test driven development.
-                </p>
-                <ul>
-                    <li>React</li>
-                    <li>AWS Lambda</li>
-                    <li>OAuth2</li>
-                    <li>Jest-Cucumber</li>
-                    <li>Puppeteer</li>
-                </ul>
-                <a href="https://jreiber9.github.io/meet/" target="_blank">View this project</a>
-                <br>
-                <a href="https://github.com/jreiber9/meet" target="_blank">See project on GitHub</a>
-            </div>
-            <!-- <div class="grid__item">
+      <h1>Work</h1>
+      <div class="grid">
+        <!-- Grid items will live here -->
+        <div class="grid__item">
+          <h2>Meet App</h2>
+          <img
+            src="img/meet_app_SS.png"
+            alt="meet app photo"
+            class="page-header__item"
+          />
+          <p>
+            This project is a PWA that was built with the React framework, it
+            was written utilizing behavior and test driven development.
+          </p>
+          <ul>
+            <li>React</li>
+            <li>AWS Lambda</li>
+            <li>OAuth2</li>
+            <li>Jest-Cucumber</li>
+            <li>Puppeteer</li>
+          </ul>
+          <a href="https://jreiber9.github.io/meet/" target="_blank"
+            >View this project</a
+          >
+          <br />
+          <a href="https://github.com/jreiber9/meet" target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <!-- <div class="grid__item">
                 <h2>Project 2</h2>
                 <p>
                     Within this project, I was responsible for the frontend. It’s written in React.js. Additionally,
@@ -100,22 +122,25 @@
                 </p>
                 <a href="#">See project on GitHub</a>
             </div> -->
-        </div>
+      </div>
     </section>
     <!-- Footer with links to social media profiles -->
     <footer class="page-footer">
-        <p>Find me on</p>
-        <div clas="social media">
-            <!-- Github logo -->
-            <img src="img/github_icon.svg" alt="Github">
-            <!-- Twitter logo -->
-            <img src="img/twitter_icon.svg" alt="Twitter">
-            <!-- LinkedIn logo -->
-            <img src="img/linkedin_icon.svg" alt="LinkedIn">
-        </div>
+      <p>Find me on</p>
+      <div class="social media">
+        <!-- Github logo -->
+        <a href="https://github.com/jreiber9/">
+          <img src="img/github_icon.svg" alt="Github" />
+        </a>
+        <!-- Twitter logo -->
+        <a href="https://twitter.com/brodiegodielodi">
+          <img src="img/twitter_icon.svg" alt="Twitter" />
+        </a>
+        <!-- LinkedIn logo -->
+        <a href="https://www.linkedin.com/in/josh-reiber-53a22538/">
+          <img src="img/linkedin_icon.svg" alt="LinkedIn" />
+        </a>
+      </div>
     </footer>
-
-
-</body>
-
+  </body>
 </html>
