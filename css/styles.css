@@ -30,6 +30,13 @@ body {
   /* Sets the line-height to 1.6 */
 }
 
+section {
+  padding: 0px 20px 20px;
+  min-height: 66vh;
+  max-width: 900px;
+  margin: auto;
+}
+
 h1 {
   font-size: 30px;
   font-weight: var(--font-weight-heading);
