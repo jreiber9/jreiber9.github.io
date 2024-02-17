@@ -120,6 +120,10 @@ button:focus,
 }
 
 .page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
   clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,7 +132,7 @@ button:focus,
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  text-align: center;
+
 }
 
 .profile__portrait {
@@ -148,6 +152,10 @@ button:focus,
   margin-right: 40px;
   border-radius: 50%;
   border: 5px solid #12c1c7;
+}
+
+.profile__content {
+  flex: 1;
 }
 
 * {
@@ -352,4 +360,28 @@ button:focus,
 
 .logo {
   border: 5px solid #12c1c7;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #094b65;
+  padding: 20px 0;
+  color: white;
+}
+
+.page-footer p {
+  margin-bottom: 10px; /* Add some spacing between "Find me on" and the social icons */
+}
+
+.social-media {
+  display: flex;
+  justify-content: center; /* Center the social icons horizontally */
+}
+
+.social-media a {
+  margin: 0 10px; /* Add some spacing between the social icons */
 }
