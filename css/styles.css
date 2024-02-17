@@ -146,6 +146,10 @@ button:focus,
   border-radius: 50%;
 }
 
+.profile__content {
+  flex: 1;
+}
+
 * {
   box-sizing: border-box;
 }
