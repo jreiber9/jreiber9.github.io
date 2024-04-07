@@ -779,3 +779,96 @@ span {
 .footer-iconTop a:hover i {
     color: var(--main-color)
 }
+
+/* MyFlix Section Adjustments */
+.myflix {
+    background: var(--second-bg-color); /* Ensure this color matches your site's theme */
+    text-align: left; /* Matches the alignment of your current content */
+    padding: 5rem 9%; /* Adjust the padding as needed to match the rest of your site */
+}
+
+.myflix-heading {
+    font-size: 3rem; /* Adjusted for consistency with other headings */
+    color: var(--main-color); /* Ensure this matches your color theme */
+    margin-bottom: 1rem; /* Reduced margin for closer spacing */
+}
+
+.myflix-container {
+    display: block; /* Changes layout to block for a simpler flow */
+}
+
+.myflix-item {
+    flex: 1 1 300px; /* Adjust based on your preference */
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    padding: 1.5rem;
+    transition: transform .3s ease-in-out;
+    max-width: 900px; /* Adjust the max-width to your preference */
+    margin: 0 auto; /* Center the item horizontally */
+  }
+  
+  
+  .myflix-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .myflix-item img {
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /* Zooms the image to cover the container */
+    object-position: top; /* Ensures the top of the image is visible */
+}
+
+
+
+  .myflix-item h3 {
+    font-size: 24px;
+    color: var(--main-color);
+    margin-bottom: 10px;
+    text-align: center; /* Center align the heading */
+  }
+  
+  .myflix-item p {
+    font-size: 1.6rem; /* Adjust the font size as needed */
+    text-align: center; /* Center the paragraph text */
+    max-width: 800px; /* Limit the maximum width of the paragraph */
+    margin: 0 auto 1rem; /* Center horizontally and add some bottom margin */
+}
+
+/* Arrange the cluster of four images into a grid */
+.myflix-cluster {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two columns */
+    gap: 20px; /* Add gap between images */
+}
+
+/* Adjust specific images within MyFlix grid */
+.myflix-cluster img {
+    width: 100%; /* Ensure images fill their grid cells */
+    height: 200px; /* Set a specific height for uniformity */
+    object-fit: none; /* Ensure entire image is visible */
+    object-position: top; /* Ensure top of the image is visible */
+}
+
+.myflix .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Adjust the gap between images */
+  }
+  
+  .myflix .grid-item img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  
+  
+@media (max-width: 768px) {
+    .myflix {
+        padding: 5rem 3%; /* Adjusted padding for smaller screens */
+    }
+}
